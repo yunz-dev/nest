@@ -27,14 +27,15 @@ fn main() {
 fn bar_test() {
 
     let bar = ProgressBar::new(1000);
+    bar.set_message("downloading files...");
     for _ in 0..1000 {
         bar.inc(1);
         std::thread::sleep(Duration::from_millis(5));
 }
-print!("testing spinner");
 bar.finish();
 
 let bar = ProgressBar::new_spinner();
+    bar.set_message("verifying");
 bar.enable_steady_tick(Duration::from_millis(100));
 
     for _ in 0..1000 {
