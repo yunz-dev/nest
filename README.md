@@ -30,3 +30,9 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/yunz-dev/nest.git
    cd nest
    ```
+2. Build the project:
+
+```bash
+    cargo build --release
+```
+This will create an optimized binary in the target/release directory.
