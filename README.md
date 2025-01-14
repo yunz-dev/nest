@@ -21,3 +21,12 @@ Before you begin, ensure you have the following installed:
 - [Git](https://git-scm.com/)
 
 ---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yunz-dev/nest.git
+   cd nest
+   ```
